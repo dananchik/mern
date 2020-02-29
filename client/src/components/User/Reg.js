@@ -1,7 +1,7 @@
 import React, {Component} from "react";
-import InputForm from "./InputForm"
-import TextArea from "./TextArea";
-class Form extends Component{
+import InputForm from "../InputForm"
+import TextArea from "../TextArea";
+class Reg extends Component{
     constructor(params) {
         super(params);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -36,4 +36,4 @@ class Form extends Component{
     }
 }
 
-export default Form
+export default Reg

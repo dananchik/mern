@@ -1,0 +1,11 @@
+footer{
+    background: #dd4375;
+    padding: 0px 30px;
+}
+.footer-container{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

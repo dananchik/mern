@@ -1,22 +1,28 @@
 import React from 'react';
+import {Route, BrowserRouter} from "react-router-dom"
 
 import './App.css';
-import Form from "./components/Form";
-import {Route, BrowserRouter} from "react-router-dom"
-import {createStore} from 'redux';
-import Post from './components/Post';
+import Posts from './components/Posts/Posts';
 import AppNavbar from "./components/AppNavbar";
-
-//const store = createStore();
+import Main from "./components/Main/Main"
+import Footer from "./components/Footer";
+import Reg from "./components/User/Reg";
+import About from "./components/About/About";
+import Admin from "./components/Admin/Admin";
+import Auth from "./components/User/Auth";
 
 function App() {
     return (
         <BrowserRouter>
             <div className="App">
                 <AppNavbar/>
-                <Route path="/posts" component={Form}/>
-
-                <Post/>
+                <Route exact path="/" component={Main}/>
+                <Route exact path="/about" component={About}/>
+                <Route exact path="/news" component={Posts}/>
+                <Route exact path="/auth" component={Auth}/>
+                <Route exact path="/reg" component={Reg}/>
+                <Route exact path="/admin" component={Admin}/>
+                <Footer/>
             </div>
         </BrowserRouter>
     );
