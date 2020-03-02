@@ -13,7 +13,6 @@ class Footer extends Component {
                             <a href=""><i className="fab fa-instagram"></i></a>
                             <a href=""><i className="fab fa-twitter"></i></a>
                         </div>
-                        <p className="text-footer">@ 2020 Xreated by Artem!</p>
                     </div>
                     <div className="right">
                         <h1>Our News!!!</h1>
@@ -23,6 +22,7 @@ class Footer extends Component {
                             <input type="submit" className="btn-submit"/>
                         </form>
                     </div>
+
                 </div>
 
             </footer>

@@ -1,6 +1,6 @@
 footer{
-    background: #dd4375;
-    padding: 0px 30px;
+    background: #ABACA5;
+    padding: 40px 0;
 }
 .footer-container{
     max-width: 1000px;
@@ -8,4 +8,86 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+
+.left img{
+    width: 100px;
+    transition: .5s;
+}
+.left img:hover{
+
+    transform: rotate(360deg);
+}
+.social-icons{
+    padding: 20px 12px;
+
+}
+.social-icons a{
+    font-size: 2.2em;
+    color: #ffb567;
+    margin-left: 8px;
+    transition: .5s;
+}
+.social-icons a:hover{
+    color: #10D1DE;
+    transition: .5s;
+}
+.newsForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right h1{
+    margin-bottom: 16px;
+}
+.text-input{
+    background: #fff;
+    padding: 12px 30px;
+    font-size: 16px;
+    text-align: left;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px black;
+    border-radius: 14px;
+    margin: 10px 0;
+}
+.btn-submit:hover{
+    transition: .3s;
+    background: black;
+    color: #fff;
+    box-shadow: 3px 6px 4px red ;
+    cursor: pointer;
+}
+.bord{
+    font-size: 1em;
+    font-weight: 700;
+}
+.btn-submit{
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+    background: #10D1DE;
+    outline: none;
+    box-shadow: 3px 6px 4px green;
+    transition: .3s;
+
+}
+.text-input::placeholder{
+    color: gray;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 700px){
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
 }

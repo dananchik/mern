@@ -5,7 +5,7 @@ const dburl = require("./config/keys").dbURL;
 const posts = require("./routes/api/posts");
 const cors = require("cors");
 const app = express();
-mongoose.connect(dburl)
+mongoose.connect(dburl, {useNewUrlParser: true,useUnifiedTopology: true })
     .then(()=>{
         console.log("Мы подключились к бд!");
         })
