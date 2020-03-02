@@ -2,7 +2,7 @@
 
 header {
     height: 90px;
-    background: #dd4375;
+    background: #000;
 }
 
 .inner-width {
@@ -28,6 +28,7 @@ header {
     display: flex;
     align-items: center;
     min-height: 90px;
+    z-index: 10;
 }
 
 .navigation-menu a {
