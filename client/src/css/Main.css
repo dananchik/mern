@@ -1,7 +1,6 @@
 .main{
     color: #fff;
     font-size: 12px;
-
 }
 
 .first-block{
@@ -10,6 +9,7 @@
     justify-content: center;
     padding: 2em 1em;
     flex-wrap: wrap;
+    width: 100%;
 }
 .first-block-content{
     position: relative;
@@ -26,6 +26,7 @@
     text-align: center;
     box-shadow: 0 .1em .8em #000;
     transition: .3s;
+
 }
 .first-block-content:hover:before,.first-block-content:hover:after{
     background: #fa8072;

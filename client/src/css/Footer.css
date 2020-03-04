@@ -35,9 +35,23 @@ footer{
     transition: .5s;
 }
 .social-icons a:hover{
-    color: #10D1DE;
+    font-size: 2em;
     transition: .5s;
 }
+.fa-telegram{
+    color: #0088cc;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 4em;
+}
+.fa-twitter{
+    color: #00acee;
+}
+
 .newsForm{
     display: flex;
     flex-direction: column;
