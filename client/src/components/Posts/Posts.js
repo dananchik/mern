@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import "../../css/Post.css"
+import Post from "./Post";
 
 class Posts extends Component {
     constructor(props) {
@@ -23,18 +25,14 @@ class Posts extends Component {
 
     render() {
         return (
-            // <div className="posts">
-            //     {this.state.posts.length == 0 ? 'У нас нету постов!'
-            //         : this.state.posts.map(post => (
-            //             <div className="post">
-            //                 <div>{post.title}</div>
-            //                 <div>{post.content}</div>
-            //             </div>
-            //         ))
-            //
-            //     }
-            // </div>
-            <div></div>
+            <div className="container">
+                <div className="posts">
+                    {/*{this.state.posts.length == 0 ? 'У нас нету постов!'*/}
+                    {/*    : this.state.posts.map(post => (*/}
+                    <Post/>
+                </div>
+            </div>
+
         )
     }
 }

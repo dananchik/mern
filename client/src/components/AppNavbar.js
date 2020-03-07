@@ -26,15 +26,15 @@ class AppNavbar extends Component {
     render() {
         return (<header>
             <div className="inner-width">
-                <a href="#" className="logo"><img src={process.env.PUBLIC_URL + '/logo.png'} alt=""/></a>
+                <a href="/" className="logo"><img src={process.env.PUBLIC_URL + '/logo.png'} alt=""/></a>
                 <i className="menu-toggle-btn fas fa-bars" onMouseDown={this.toggleMenu}></i>
 
             </div>
             <div className="user">
             <i className="far fa-user" onMouseDown={this.toggleUser}></i>
             <ul className={this.state.isOpenMenuUser ? "user-menu show-user-menu":"user-menu hide-user-menu"}>
-                <li><a href="#" className="enter">Вход</a></li>
-                <li><i className="fas fa-user-plus"></i><a href="#">Создать учетную запись</a></li>
+                <li><a href="/auth" className="enter">Вход</a></li>
+                <li><i className="fas fa-user-plus"></i><a href="/reg">Создать учетную запись</a></li>
             </ul>
         </div>
             <nav className={this.state.isOpenMenu ? "navigation-menu show" : "navigation-menu hide"}>

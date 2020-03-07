@@ -8,10 +8,10 @@ class Footer extends Component {
                     <div className="left">
                         <img src={process.env.PUBLIC_URL + '/logo.png'} alt=""/>
                         <div className="social-icons">
-                            <a href=""><i className="fab fa-telegram"></i></a>
-                            <a href=""><i className="fab fa-facebook"></i></a>
-                            <a href=""><i className="fab fa-instagram"></i></a>
-                            <a href=""><i className="fab fa-twitter"></i></a>
+                            <a href="/telegram"><i className="fab fa-telegram"></i></a>
+                            <a href="/facebook"><i className="fab fa-facebook"></i></a>
+                            <a href="/instagram"><i className="fab fa-instagram"></i></a>
+                            <a href="/twitter"><i className="fab fa-twitter"></i></a>
                         </div>
                     </div>
                     <div className="right">

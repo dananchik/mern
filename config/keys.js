@@ -1,3 +1,3 @@
 module.exports = {
-    dbURL:'mongodb+srv://root:root@cluster0-y5cik.mongodb.net/test?retryWrites=true&w=majority'
+    dbURL:'mongodb://127.0.0.1:27017/?gssapiServiceName=mongodb'
 };

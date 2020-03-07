@@ -40,7 +40,7 @@ class Slaider extends Component {
     render() {
         return (
             <div className="slaider">
-                <img src={process.env.PUBLIC_URL + "/img/" + this.slaids[this.state.idImage]}/>
+                <img src={process.env.PUBLIC_URL + "/img/" + this.slaids[this.state.idImage]} alt=""/>
                 <div className="navigation">
 
                     <InputElem item_value="0" handlerChange={this.ChangeSlaiderHandler} id="input-0"/>
